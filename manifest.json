@@ -1,0 +1,17 @@
+{
+    "manifest_version": 2,
+    "name": "Kolor",
+    "description": "Generate color scheme in a new tab.",
+    "author": "Francis Claide Magallen",
+    "version": "1.0.0",
+    "chrome_url_overrides" : { 
+        "newtab": "app.html" 
+    },
+    "permissions": [ 
+        "activeTab" 
+    ],
+    "browser_action": { 
+        "default_title": "Open Kolor",
+        "default_popup": "popup.html"
+    }
+}

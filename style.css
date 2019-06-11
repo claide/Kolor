@@ -1,0 +1,13 @@
+html, body {
+    margin: 0 auto;
+}
+
+#app {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.column {
+    flex: 1;
+}
